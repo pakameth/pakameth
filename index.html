@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Montserrat", sans-serif
+    }
+
+    .w3-row-padding img {
+      margin-bottom: 12px
+    }
+
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+      width: 210px;
+      background: #222;
+    }
+
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+      margin-left: 120px
+    }
+
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+      #main {
+        margin-left: 0
+      }
+    }
+  </style>
+
+<body class="w3-light-grey">
+
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-dark-grey w3-left">
+    <!-- Avatar image in top left corner -->
+    <img src="./images/warm.jpg" class="w3-center" style="width:100%;border: 4px solid #dddddd6d;">
+    <a class="">
+      <p><i class="fa fa-envelope fa-fw w3-padding-10 w3-xxlarge w3-text-black "></i>pakameth.w@gmail.com</p>
+      <p><i class="fa fa-phone fa-fw w3-padding-10 w3-xxlarge w3-text-black"></i>+66 95-864-7878</p>
+      <p><i class="fa fa-map-pin fa-fw w3-padding-10 w3-xxlarge w3-text-black"></i>6/133 Moo 7,
+    </a>
+    Srinakarin Rd, Bang Mueang, Mueang Samut Prakan,
+    Samut Prakan, 10270, Thailand</p>
+  </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <!-- <header class="w3-container w3-padding-20 w3-center w3-ligh-gray">
+      <h1 class="w3-jumbo"><span class="w3-hide-small"></span>Pakameth Wongjaiyen</h1>
+      <hr style="height:2px;color:gray;background-color:gray">
+    </header> -->
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+      <h1 class="w3-jumbo w3-text-black"><span class="w3-hide-small"></span><b>Pakameth Wongjaiyen</b></h1>
+      <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+      <p class="w3-large w3-text-black"> Hello! My name is Pakameth Wongjaiyen, ##########
+      </p>
+      <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+
+
+      <h1 class="w3-xxxlarge w3-text-black"><span class="w3-hide-small"></span>Work Experience</h1>
+
+      <!-- work -->
+      <div class="w3-row">
+        <div class="w3-col s6">
+          <div class="w3-card-4 w3-margin w3-white">
+
+            <hr class="w3-white">
+            <div class="w3-container">
+              <img src="./images/themonk_logo.jpg" alt="themonk" class="w3-left w3-circle" style="width:20%">
+              <p class="w3-center w3-large w3-text-black">
+                </pclass><b> The Monk Studios Internship</b></p>
+              <p class="w3-center w3-large w3-text-black">
+                </pclass> Junior Pipeline Engineer (2 May 2023 - 31 October 2023)</p>
+              <button class="w3-button w3-light-grey w3-padding-large w3-section"
+                onclick=" window.open('https://drive.google.com/file/d/1lH1Vvr-BgaxWVMyxe9GrKPHLAiReTMLI/view?usp=sharing','_blank')"><i
+                  class="w3-xlarge"></i> Certificate</button>
+            </div>
+            <hr class="w3-white">
+
+          </div>
+        </div>
+
+        <div class="w3-col s6">
+          <div class="w3-card-4 w3-margin w3-white">
+
+            <hr class="w3-white">
+            <div class="w3-container">
+              <img src="./images/kasetfairverse_icon.png" alt="kasetfairverse" class="w3-left w3-circle"
+                style="width:30%">
+              <p class="w3-center w3-large w3-text-black">
+                </pclass><b> KasetFair Metaverse 2024</b></p>
+              <p class="w3-center w3-large w3-text-black">
+                </pclass> Pipeline Team</p>
+              <button class="w3-button w3-light-grey w3-padding-large w3-section"
+                onclick=" window.open('https://drive.google.com/file/d/1nNQDDfoNOjw964-I4cOYBhJRLqPesop1/view?usp=sharing','_blank')"><i
+                  class="w3-xlarge"></i> Certificate</button>
+            </div>
+            <hr class="w3-white">
+
+          </div>
+        </div>
+      </div>
+
+      <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+      <h1 class="w3-xxxlarge w3-text-black"><span class="w3-hide-small"></span>Developed Pipeline Tool</h1>
+
+      <!-- tool -->
+      <div class="w3-row">
+        <div class="w3-col s6">
+          <div class="w3-card w3-margin w3-margin-top">
+            <img src="./images/upload_tool.jpg" style="width:100%">
+            <div class="w3-container w3-white">
+              <h4><b>Blender Tool</b></h4>
+              <p>Tool for upload blender file to server with automate file naming and versioning, implement with
+                ShotGrid python api</p>
+            </div>
+          </div>
+          <hr>
+        </div>
+
+        <div class="w3-col s6">
+          <div class="w3-card w3-margin w3-margin-top">
+            <img src="./images/submit_tool.jpg" style="width:100%">
+            <div class="w3-container w3-white">
+              <h4><b>Submit Tool</b></h4>
+              <p>Tool for submit task version by update task status in ShotGrid to "Pending Review"</p>
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+
+
+      <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+      <h1 class="w3-xxxlarge w3-text-black"><span class="w3-hide-small"></span>Show Reel</h1>
+
+      <!-- ShowReel -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/HoiyH9CDzzY?si=Py7hbp3SxmtHrqFN"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+      <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+      <h1 class="w3-xxxlarge w3-text-black"><span class="w3-hide-small"></span>Resume</h1>
+
+      <!-- Resume -->
+      <button class="w3-button w3-grey w3-padding-large w3-section"
+        onclick=" window.open('https://drive.google.com/file/d/1rOMiS9jqpsZAKE40EGrF2FiVTDMGz8Qj/view?usp=sharing','_blank')">
+        <i class="w3-xlarge fa fa-external-link"></i> Open Resume
+      </button>
+
+    </div>
+
+    <!-- END PAGE CONTENT -->
+  </div>
+
+</body>
+
+</html>
